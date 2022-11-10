@@ -12,7 +12,7 @@ You can assign hotkeys or use the commands from the command palette.
 
 ## Manually installing the plugin
 
-- Copy over `main.js`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/obsidian-sidetogglecmd/`.
+- Copy over `main.js`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/sidetogglecmd/`.
 
 ## Development
 

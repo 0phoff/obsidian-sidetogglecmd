@@ -6,33 +6,33 @@ export default class MyPlugin extends Plugin {
 
 		// Left Sidebar
 		this.addCommand({
-			id: 'STC-show-left-sidebar',
+			id: 'show-left-sidebar',
 			name: 'Show left sidebar',
 			callback: () => this.sidebarVisibility('left', true),
 		});
 
 		this.addCommand({
-			id: 'STC-hide-left-sidebar',
+			id: 'hide-left-sidebar',
 			name: 'Hide left sidebar',
 			callback: () => this.sidebarVisibility('left', false),
 		});
 
 		// Right Sidebar
 		this.addCommand({
-			id: 'STC-show-right-sidebar',
+			id: 'show-right-sidebar',
 			name: 'Show right sidebar',
 			callback: () => this.sidebarVisibility('right', true),
 		});
 
 		this.addCommand({
-			id: 'STC-hide-right-sidebar',
+			id: 'hide-right-sidebar',
 			name: 'Hide right sidebar',
 			callback: () => this.sidebarVisibility('right', false),
 		});
 
 		// Both Sidebars
 		this.addCommand({
-			id: 'STC-show-both-sidebars',
+			id: 'show-both-sidebars',
 			name: 'Show both sidebars',
 			callback: () => {
 				this.sidebarVisibility('left', true);
@@ -41,7 +41,7 @@ export default class MyPlugin extends Plugin {
 		});
 
 		this.addCommand({
-			id: 'STC-hide-both-sidebars',
+			id: 'hide-both-sidebars',
 			name: 'Hide both sidebars',
 			callback: () => {
 				this.sidebarVisibility('left', false);
@@ -50,7 +50,7 @@ export default class MyPlugin extends Plugin {
 		});
 
 		this.addCommand({
-			id: 'STC-toggle-both-sidebars',
+			id: 'toggle-both-sidebars',
 			name: 'Toggle both sidebars',
 			callback: () => {
 				if (this.app.workspace.leftSplit.collapsed && this.app.workspace.rightSplit.collapsed) {
