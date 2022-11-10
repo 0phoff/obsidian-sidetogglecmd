@@ -1,6 +1,6 @@
 {
 	"name": "sidetogglecmd",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "More commands for a finer control of your obsidian sidebars",
 	"main": "main.js",
 	"scripts": {
